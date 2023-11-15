@@ -1,0 +1,43 @@
+
+body{
+  background-color: brown;
+}
+.box{
+  background-color: bisque;
+  display: inline-block;
+  position: absolute;
+  top : 180px;
+  left : 550px;
+  border : 2px solid black;
+  border-radius: 5px;
+  padding : 20px;
+}
+
+form{
+  /* background-color: aliceblue; */
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label{
+  font-family :Verdana, Geneva, Tahoma, sans-serif;
+}
+.Input{
+  height : 20px;
+  width : 200px;
+  margin : 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.button{
+  width : 60px;
+  background-color: brown;
+  color: bisque;
+  margin: 0;
+  padding: 0;
+  border :1px solid black;
+  border-radius : 3px;
+}
